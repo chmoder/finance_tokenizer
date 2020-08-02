@@ -1,0 +1,18 @@
+[package]
+name = "tokenizer"
+version = "0.1.0"
+authors = ["tcross <tom.bz2@gmail.com>"]
+edition = "2018"
+documentation = "https://docs.rs/tokenizer"
+readme = "README.md"
+repository = "https://github.com/chmoder/tokenizer/"
+description = "A credit card tokenization library"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.7.3"
+hex-literal = "0.3.0"
+blake3 = "0.3.5"
+credit_card = { version = "0.1.1" }
