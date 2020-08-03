@@ -4,6 +4,7 @@ Tokenizer is a library for tokenizing credit card data.
 
 #### add tokenizer as a dependency to Cargo.toml 
 ```toml
+[dependencies]
 tokenizer = "0.1.0"
 ```
 
@@ -34,6 +35,7 @@ assert_ne!(token, token2)
 # Future Features
 - Swappable hash functions
 - Tokenize other data types.  (String, Vec, bytes, ...)
+- Tokenize debit cards, bank accounts, and other financial data
 
 ### Notice:
 This is under development right now, so interfaces

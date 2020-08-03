@@ -1,15 +1,13 @@
 [package]
-name = "tokenizer"
+name = "finance_tokenizer"
 version = "0.1.0"
 authors = ["tcross <tom.bz2@gmail.com>"]
 edition = "2018"
-documentation = "https://docs.rs/tokenizer"
+documentation = "https://docs.rs/finance_tokenizer"
 readme = "README.md"
-repository = "https://github.com/chmoder/tokenizer/"
-description = "A credit card tokenization library"
+repository = "https://github.com/chmoder/finance_tokenizer/"
+description = "A finacne tokenization library"
 license = "MIT"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 rand = "0.7.3"
