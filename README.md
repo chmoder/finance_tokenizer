@@ -5,7 +5,7 @@ Financial Tokenizer is a library for tokenizing credit card data.
 #### add tokenizer as a dependency to Cargo.toml 
 ```toml
 [dependencies]
-tokenizer = "0.1.0"
+financial_tokenizer = "0.1.0"
 ```
 
 ```rust,norun
